@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aplikasi Siakad</string>
+    <string name="hello">Hello Bagas!</string>
+    <string name="submit">Login</string>
+    <string name="desc">Image</string>
+    <string name="et_username">Username</string>
+    <string name="et_password">Password</string>
+    <string name="manu_logout">Logout</string>
+    <string name="show_ak">Menu Akademik</string>
+    <string name="bukan_admin">Anda Bukan Admin, Silahkan Isi Data Diri</string>
+    <string name="profil_nama">Nama</string>
+    <string name="profil_ttl">Tempat Tanggal Lahir</string>
+    <string name="profil_umur">Umur</string>
+    <string name="profil_alamat">Alamat</string>
+    <string name="profil_simpan">Simpan</string>
+    <string name="profilTampilan_selesai">Selesai</string>
+    <string name="profilTmpilan_judul">Data Diri Anda</string>
+</resources>

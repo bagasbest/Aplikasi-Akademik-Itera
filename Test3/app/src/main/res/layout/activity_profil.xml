@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:layout_marginBottom="50dp"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+            android:onClick="bt_profil_kembali"
+
+            android:textColor="@android:color/white"
+            android:drawableStart="@drawable/back_button"
+            android:drawableLeft="@drawable/back_button"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bukan_admin"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/round_edittext">
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:hint="@string/profil_nama"
+            android:inputType="text"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/round_edittext">
+
+        <EditText
+            android:id="@+id/et_ttl"
+            android:hint="@string/profil_ttl"
+            android:inputType="text"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/round_edittext">
+
+        <EditText
+            android:id="@+id/et_umur"
+            android:hint="@string/profil_umur"
+            android:inputType="text"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/round_edittext">
+
+        <EditText
+            android:id="@+id/et_alamat"
+            android:hint="@string/profil_alamat"
+            android:inputType="text"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bt_simpan"
+        android:text="@string/profil_simpan"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_button"/>
+
+
+</LinearLayout>
